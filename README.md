@@ -1,5 +1,7 @@
 # Personality Prediction ML Project
 
+**Live Application:** [https://personality-2-ktty.onrender.com/](https://personality-2-ktty.onrender.com/)
+
 This project predicts whether a person is an **Introvert** or **Extrovert** based on various behavioral traits such as time spent alone, stage fear, social event attendance, and more. It uses a Machine Learning model deployed via a Django web application.
 
 ## Model Details
