@@ -21,7 +21,7 @@ Follow these steps to set up and run the application locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
+   git clone [<your-repository-url>](https://github.com/ramuuzz/personality.git)
    cd personality
    ```
 
