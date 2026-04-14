@@ -1,6 +1,10 @@
 from django.shortcuts import render
+from django.conf import settings
+import os
 from joblib import load
-model= load('./savedmodels/model.joblib')
+
+model_path = os.path.join(settings.BASE_DIR, 'savedmodels', 'model.joblib')
+model = load(model_path)
 # Create your views here.
 def forminfo(request): 
     if request.method == 'POST':
